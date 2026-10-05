@@ -12,7 +12,6 @@ st.set_page_config(page_title="GameBreaker closing line record", page_icon="📈
 BG, SURFACE, SURFACE2, BORDER = "#09090b", "#18181b", "#1f1f23", "#27272a"
 TEXT, DIM, FAINT = "#fafafa", "#a1a1aa", "#6b6f7a"
 GREEN, GREEN_BG, RED = "#10b981", "#0d2a20", "#ef4444"
-COPY_TRADE_URL = "https://gamebreaker-app.vercel.app/copy-trade"
 
 
 @st.cache_data(ttl=300)
@@ -255,22 +254,6 @@ st.markdown(
 """,
     unsafe_allow_html=True,
 )
-
-# ---- call to action -------------------------------------------------------------------------
-share_text = f"A football pricing record with {N} timestamped picks and +{mean:.2f}% average CLV against Pinnacle's close. Worth a look: {COPY_TRADE_URL}"
-share_url = "https://wa.me/?text=" + urllib.parse.quote(share_text)
-st.markdown(
-    f"""
-<div class="cta">
-  <div><div class="t">Want the price before the market closes?</div>
-  <div class="s">Copy Trade shows the price I took and the fair price my model says, before kick-off. You place your own bets. Nothing is copied automatically.</div></div>
-  <div><a class="btn" href="{COPY_TRADE_URL}" target="_blank" rel="noopener noreferrer">See Copy Trade</a>
-  <a class="btn ghost" href="{share_url}" target="_blank" rel="noopener noreferrer">Send to a friend</a></div>
-</div>
-""",
-    unsafe_allow_html=True,
-)
-
 
 # ---- charts ---------------------------------------------------------------------------------
 def style_chart(ch, h: int = 290):
