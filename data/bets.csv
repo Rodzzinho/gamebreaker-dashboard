@@ -328,6 +328,9 @@ logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_fair_odds,resul
 2026-09-13T16:11:10+01:00,Toulouse v Le Havre,Ligue 1,Le Havre,4.29,4.78,-10.25,3.69,L
 2026-09-13T16:11:10+01:00,AS Monaco v RC Lens,Ligue 1,AS Monaco,2.18,1.86,17.2,1.99,W
 2026-09-13T22:49:50+01:00,Celta vs Racing Santander,La Liga,Racing Santander,4.05,4.35,-6.9,3.42,L
+2026-09-14T13:39:49+01:00,Aston Villa v Brentford,Premier League,Brentford,2.68,2.68,0.0,2.27,D
+2026-09-14T13:39:49+01:00,Ipswich Town v Fulham,Premier League,Ipswich Town,2.67,3.15,-15.24,2.5,W
+2026-09-14T13:39:49+01:00,Sunderland v Brighton and Hove Albion,Premier League,Brighton and Hove Albion,2.49,2.42,2.89,2.24,W
 2026-09-14T19:22:24+01:00,Tottenham v Aston Villa,Premier League,Aston Villa,3.8,4.0,-5.0,3.22,W
 2026-09-15T00:08:08+01:00,Cardiff City v Charlton Athletic,Championship,Charlton Athletic,4.21,4.54,-7.27,3.82,L
 2026-09-15T01:01:49+01:00,AJ Auxerre v Brest,Ligue 1,Brest,2.52,2.36,6.78,2.42,L
@@ -341,11 +344,17 @@ logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_fair_odds,resul
 2026-09-19T15:06:59+01:00,Newcastle United v Hull City,Premier League,Hull City,5.83,5.45,6.97,3.96,L
 2026-09-19T18:11:48+01:00,Le Mans v Lorient,Ligue 1,Le Mans,2.94,2.87,2.44,2.44,W
 2026-09-19T22:40:47+01:00,RC Lens v Lyon,Ligue 1,Lyon,3.19,2.64,20.83,3.07,L
-2026-09-20T12:30:30+01:00,Charlton v Bristol City,Championship,Bristol City,2.31,2.38,-2.94,2.05,TBD
+2026-09-20T12:30:30+01:00,Charlton v Bristol City,Championship,Bristol City,2.31,2.38,-2.94,2.05,D
+2026-09-20T12:30:30+01:00,Preston v Millwall,Championship,Millwall,2.7,2.32,16.38,2.27,W
+2026-09-20T12:30:30+01:00,Sheffield United v Lincoln City,Championship,Lincoln City,3.57,3.63,-1.65,2.26,L
+2026-09-20T12:30:30+01:00,Blackburn Rovers v Cardiff City,Championship,Cardiff City,2.48,2.54,-2.36,2.2,L
+2026-09-20T12:30:30+01:00,Derby County v Wrexham,Championship,Wrexham,2.67,2.56,4.3,2.26,D
+2026-09-20T12:30:30+01:00,Watford v Burnley,Championship,Burnley,2.31,2.3,0.43,2.18,W
 2026-09-20T14:08:15+01:00,Bournemouth v Liverpool,Premier League,Liverpool,2.19,2.2,-0.45,1.92,W
-2026-09-20T22:56:57+01:00,Swansea City v Norwich,Championship,Swansea City,2.63,2.37,10.97,2.43,TBD
-2026-09-20T22:56:57+01:00,West Brom v Birmingham City,Championship,Birmingham City,3.01,2.92,3.08,2.72,TBD
-2026-09-20T22:56:57+01:00,Middlesboroug v Wolves,Championship,Wolves,3.21,2.97,8.08,2.59,Exited early -- Fer Lopez (key attacker) injury
+2026-09-20T22:56:57+01:00,Swansea City v Norwich,Championship,Swansea City,2.63,2.37,10.97,2.43,W
+2026-09-20T22:56:57+01:00,West Brom v Birmingham City,Championship,Birmingham City,3.01,2.92,3.08,2.72,W
+2026-09-20T22:56:57+01:00,Middlesboroug v Wolves,Championship,Wolves,3.21,2.97,8.08,2.59,L (Exited early -- Fer Lopez (key attacker) injury)
+2026-09-27T18:23:20+01:00,Chelsea v Bournemouth,Premier League,Bournemouth,4.42,4.03,9.68,3.76,L
 2026-10-02T00:43:39+01:00,Botafogo v Vasco,Brazil Serie A,Vasco,2.52,2.34,7.69,1.93,W
 2026-10-08T17:23:56+01:00,Athletico-PR v Atletico-MG,Brazil Serie A,Atletico-MG,3.9,3.77,3.45,3.08,D
-2026-10-10T12:42:48+01:00,Arsenal v Leeds United,Premier League,Leeds United,8.17,7.85,4.08,,TBD
+2026-10-10T12:42:48+01:00,Arsenal v Leeds United,Premier League,Leeds United,8.17,7.85,4.08,,L
