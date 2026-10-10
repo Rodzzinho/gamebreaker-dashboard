@@ -278,7 +278,7 @@ logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_fair_odds,resul
 2026-09-02T23:31:07+01:00,Real Sociedad vs Espanyol,La Liga,Espanyol,4.12,4.13,-0.24,3.93,TBD
 2026-09-02T23:31:07+01:00,Sevilla vs Atletico Madrid,La Liga,Atletico Madrid,2.09,1.96,6.63,1.88,TBD
 2026-09-02T23:31:07+01:00,Le Mans FC v Brest,Ligue 1,Brest,2.75,2.92,-5.82,2.7,TBD
-2026-09-02T23:31:07+01:00,Angers SCO v Rennes,Ligue 1,Angers SCO,4.1,4.03,1.74,3.7,TBD
+2026-09-02T23:31:07+01:00,Angers SCO v Rennes,Ligue 1,Angers SCO,4.1,4.03,1.74,3.7,L
 2026-09-02T23:31:07+01:00,Toulouse FC v LOSC,Ligue 1,LOSC,2.18,1.86,17.2,1.96,TBD
 2026-09-02T23:31:07+01:00,Ipswich Town v Sunderland,Premier League,Ipswich Town,2.74,2.93,-6.48,2.69,TBD
 2026-09-02T23:31:07+01:00,Nottingham Forest v Leeds United,Premier League,Leeds United,3.26,3.08,5.84,2.89,TBD
@@ -336,7 +336,7 @@ logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_fair_odds,resul
 2026-09-15T00:08:08+01:00,Cardiff City v Charlton Athletic,Championship,Charlton Athletic,4.21,4.54,-7.27,3.82,L
 2026-09-15T01:01:49+01:00,AJ Auxerre v Brest,Ligue 1,Brest,2.52,2.36,6.78,2.42,L
 2026-09-16T00:40:44+01:00,Lincoln City v Swansea City,Championship,Swansea City,2.45,2.43,0.82,2.04,W
-2026-09-16T22:56:34+01:00,Lorient v Paris FC,Ligue 1,Paris FC,2.44,2.05,19.02,2.12,TBD
+2026-09-16T22:56:34+01:00,Lorient v Paris FC,Ligue 1,Paris FC,2.44,2.05,19.02,2.12,L
 2026-09-16T22:56:52+01:00,Atletico Madrid v Real Madrid,La Liga,Real Madrid,1.92,2.02,-4.95,1.8,L
 2026-04-28T22:35:16+01:00,Villarreal v Levante,La Liga,Levante,5.24,5.3,-1.13,5.18,TBD
 2026-09-17T16:25:33+01:00,Malaga v Espanyol,La Liga,Espanyol,3.04,2.63,15.59,2.55,D
