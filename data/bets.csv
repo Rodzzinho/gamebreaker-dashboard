@@ -332,7 +332,9 @@ logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_fair_odds,resul
 2026-09-14T13:39:49+01:00,Aston Villa v Brentford,Premier League,Brentford,2.68,2.68,0.0,2.27,D
 2026-09-14T13:39:49+01:00,Ipswich Town v Fulham,Premier League,Ipswich Town,2.67,3.15,-15.24,2.5,W
 2026-09-14T13:39:49+01:00,Sunderland v Brighton and Hove Albion,Premier League,Brighton and Hove Albion,2.49,2.42,2.89,2.24,W
+2026-09-14T13:39:49+01:00,Hull City v Everton,Premier League,Hull City,3.7,3.89,-4.88,2.95,TBD
 2026-09-14T19:22:24+01:00,Tottenham v Aston Villa,Premier League,Aston Villa,3.8,4.0,-5.0,3.22,W
+2026-09-14T19:22:24+01:00,Crystal Palace v Nottingham Forest,Premier League,Nottingham Forest,2.62,2.54,3.15,2.25,TBD
 2026-09-15T00:08:08+01:00,Cardiff City v Charlton Athletic,Championship,Charlton Athletic,4.21,4.54,-7.27,3.82,L
 2026-09-15T01:01:49+01:00,AJ Auxerre v Brest,Ligue 1,Brest,2.52,2.36,6.78,2.42,L
 2026-09-16T00:40:44+01:00,Lincoln City v Swansea City,Championship,Swansea City,2.45,2.43,0.82,2.04,W
@@ -353,6 +355,7 @@ logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_fair_odds,resul
 2026-09-20T12:30:30+01:00,Blackburn Rovers v Cardiff City,Championship,Cardiff City,2.48,2.54,-2.36,2.2,L
 2026-09-20T12:30:30+01:00,Derby County v Wrexham,Championship,Wrexham,2.67,2.56,4.3,2.26,D
 2026-09-20T12:30:30+01:00,Watford v Burnley,Championship,Burnley,2.31,2.3,0.43,2.18,W
+2026-09-20T12:30:30+01:00,Southampton v Portsmouth,Championship,Portsmouth,5.36,6.17,-13.13,4.9,TBD
 2026-09-20T14:08:15+01:00,Bournemouth v Liverpool,Premier League,Liverpool,2.19,2.2,-0.45,1.92,W
 2026-09-20T22:56:57+01:00,Swansea City v Norwich,Championship,Swansea City,2.63,2.37,10.97,2.43,W
 2026-09-20T22:56:57+01:00,West Brom v Birmingham City,Championship,Birmingham City,3.01,2.92,3.08,2.72,W
