@@ -18,6 +18,8 @@ GREEN, GREEN_BG, RED = "#10b981", "#0d2a20", "#ef4444"
 def load() -> pd.DataFrame:
     d = pd.read_csv("data/bets.csv")
     d["logged_at"] = pd.to_datetime(d["logged_at"], utc=True, errors="coerce")
+    d["clv_logged_at"] = pd.to_datetime(d["clv_logged_at"], utc=True, errors="coerce") if "clv_logged_at" in d else d["logged_at"]
+    d["clv_logged_at"] = d["clv_logged_at"].fillna(d["logged_at"])
     d = d.sort_values("logged_at").reset_index(drop=True)
     d["n"] = d.index + 1
     d["running_avg"] = d["clv_pct"].expanding().mean()
@@ -150,7 +152,7 @@ tab_live, tab_bt, tab_n, tab_gh = st.tabs(["Live record", "Backtest", "How many 
 tab_live.__enter__()
 
 # ---- ticker of the most recent verified prints (losers included) ---------------------------
-recent = df.sort_values("logged_at", ascending=False).head(26)
+recent = df.sort_values("clv_logged_at", ascending=False).head(26)
 items = []
 for _, r in recent.iterrows():
     cls = "up" if r["clv_pct"] > 0 else "dn"
@@ -332,9 +334,9 @@ if q:
     view = view[view["match"].str.contains(q, case=False, na=False) | view["pick"].str.contains(q, case=False, na=False)]
 if pos_only:
     view = view[view["clv_pct"] > 0]
-view = view.sort_values("logged_at", ascending=False)
+view = view.sort_values("clv_logged_at", ascending=False)
 
-cols = ["logged_at", "match", "league", "pick", "entry_odds", "pinnacle_close", "clv_pct", "gb_fair_odds", "result"]
+cols = ["logged_at", "clv_logged_at", "match", "league", "pick", "entry_odds", "pinnacle_close", "clv_pct", "gb_fair_odds", "result"]
 shown = view[cols].reset_index(drop=True)
 
 
@@ -351,6 +353,7 @@ st.dataframe(
     height=540,
     column_config={
         "logged_at": st.column_config.DatetimeColumn("Logged (UTC)", format="DD MMM YYYY, HH:mm"),
+        "clv_logged_at": st.column_config.DatetimeColumn("Close recorded (UTC)", format="DD MMM YYYY, HH:mm"),
         "match": "Match",
         "league": "Competition",
         "pick": "Pick",
