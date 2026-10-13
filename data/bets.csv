@@ -252,6 +252,8 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-08-24T18:18:24+01:00,2026-09-07T19:21:41+01:00,Leeds v Brentford,Premier League,Brentford,2.96,,16.08,2.02,
 2026-08-24T18:26:25+01:00,2026-09-07T19:21:41+01:00,Derby County v Swansea City,Championship,Swansea City,3.61,,17.59,3.1,
 2026-08-24T18:26:25+01:00,2026-09-07T19:21:41+01:00,Middlesbrough v West Bromwich Albion,Championship,West Bromwich Albion,4.59,,-2.34,3.96,
+2026-08-24T18:26:25+01:00,2026-10-13T16:53:29+01:00,Blackburn Rovers v Queens Park Rangers,Championship,QPR,2.99,2.6,15.0,2.76,
+2026-08-24T18:26:25+01:00,2026-10-13T16:53:29+01:00,Bolton Wanderers v Lincoln City,Championship,Bolton Wanderers,2.61,2.5,4.4,,
 2026-08-24T18:26:25+01:00,2026-09-10T13:31:53+01:00,Charlton Athletic v Preston North End,Championship,Charlton Athletic,2.32,2.13,8.92,2.14,TBD
 2026-08-24T18:26:25+01:00,2026-09-10T13:31:53+01:00,Southampton v Millwall,Championship,Millwall,4.22,3.69,14.36,3.0,TBD
 2026-08-24T18:18:24+01:00,2026-08-27T22:28:12+01:00,Celta v Osasuna,La Liga,Celta,2.07,1.9,11.89,1.86,
@@ -273,6 +275,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-09-02T23:31:07+01:00,2026-09-02T23:31:07+01:00,Sevilla vs Atletico Madrid,La Liga,Atletico Madrid,2.09,1.96,6.63,1.88,TBD
 2026-09-02T23:31:07+01:00,2026-09-02T23:31:07+01:00,Le Mans FC v Brest,Ligue 1,Brest,2.75,2.92,-5.82,2.7,TBD
 2026-09-02T23:31:07+01:00,2026-09-07T19:21:41+01:00,Toulouse FC v LOSC,Ligue 1,LOSC,2.18,1.86,17.2,1.96,TBD
+2026-09-02T23:31:07+01:00,2026-10-13T16:53:29+01:00,Troyes v Strasbourg,Ligue 1,Strasbourg,2.35,2.5,-6.0,2.11,TBD
 2026-09-02T23:31:07+01:00,2026-09-02T23:31:07+01:00,Ipswich Town v Sunderland,Premier League,Ipswich Town,2.74,2.93,-6.48,2.69,TBD
 2026-09-02T23:31:07+01:00,2026-09-02T23:31:07+01:00,Nottingham Forest v Leeds United,Premier League,Leeds United,3.26,3.08,5.84,2.89,TBD
 2026-09-02T23:31:07+01:00,2026-09-07T19:21:41+01:00,Arsenal v Chelsea,Premier League,Chelsea,5.65,5.0,13.0,3.8,L
@@ -280,6 +283,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-09-02T23:31:07+01:00,2026-09-07T19:21:41+01:00,Brighton and Hove Albion v Leeds United,Premier League,Leeds United,4.24,3.74,13.37,3.92,L
 2026-09-02T23:31:07+01:00,2026-09-02T23:31:07+01:00,Bolton Wanderers v Preston North End,Championship,Preston North End,3.28,3.07,6.84,2.99,TBD
 2026-09-02T23:31:07+01:00,2026-09-02T23:31:07+01:00,Burnley v West Ham United,Championship,West Ham United,2.4,2.34,2.56,2.0,TBD
+2026-09-02T23:31:07+01:00,2026-10-13T16:53:29+01:00,Derby County v Cardiff City,Championship,Derby,1.99,2.22,-10.36,1.86,TBD
 2026-09-02T23:31:07+01:00,2026-09-02T23:31:07+01:00,Cardiff City v Sheffield United,Championship,Sheffield United,2.72,2.34,16.39,2.56,L
 2026-09-02T23:31:07+01:00,2026-09-02T23:31:07+01:00,Norwich City v Burnley,Championship,Burnley,2.93,3.48,-15.8,2.77,L
 2026-09-02T23:31:07+01:00,2026-09-02T23:31:07+01:00,Birmingham City v Southampton,Championship,Southampton,2.94,2.55,15.29,2.44,L
@@ -319,6 +323,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-09-13T16:11:10+01:00,2026-09-19T15:06:59+01:00,Burnley v Derby County,Championship,Derby County,4.3,4.36,-1.38,3.2,D
 2026-09-13T16:11:10+01:00,2026-09-13T16:26:49+01:00,Manchester United v Manchester City,Premier League,Manchester United,3.34,3.0,11.33,2.76,L
 2026-09-13T16:11:10+01:00,2026-09-19T15:06:59+01:00,Birmingham City v Middlesbrough,Championship,Middlesbrough,2.22,2.48,-10.48,1.77,D
+2026-09-13T16:11:10+01:00,2026-10-13T16:53:29+01:00,Lyon v Rennes,Ligue 1,Rennes,3.19,3.3,-3.33,2.56,TBD
 2026-09-13T16:11:10+01:00,2026-09-19T19:21:50+01:00,Toulouse v Le Havre,Ligue 1,Le Havre,4.29,4.78,-10.25,3.69,L
 2026-09-16T00:40:44+01:00,2026-09-18T19:45:16+01:00,AS Monaco v RC Lens,Ligue 1,AS Monaco,2.18,1.86,17.2,1.99,W
 2026-09-13T22:49:50+01:00,2026-09-19T17:28:30+01:00,Celta vs Racing Santander,La Liga,Racing Santander,4.05,4.35,-6.9,3.42,L
