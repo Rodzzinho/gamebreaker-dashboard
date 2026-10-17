@@ -362,7 +362,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-09-20T22:56:57+01:00,2026-10-10T12:42:48+01:00,Swansea City v Norwich,Championship,Swansea City,2.63,2.37,10.97,2.43,W
 2026-09-20T22:56:57+01:00,2026-10-10T12:42:48+01:00,West Brom v Birmingham City,Championship,Birmingham City,3.01,2.92,3.08,2.72,W
 2026-09-20T22:56:57+01:00,2026-10-08T19:53:00+01:00,Middlesboroug v Wolves,Championship,Wolves,3.21,2.97,8.08,2.59,L (Exited early -- Fer Lopez (key attacker) injury)
-2026-09-21T17:11:53+01:00,2026-10-17T14:05:13+01:00,Villarreal v Elche,La Liga,Elche,6.4,5.9,8.47,5.25,TBD
+2026-09-21T17:11:53+01:00,2026-10-17T14:05:13+01:00,Villarreal v Elche,La Liga,Elche,6.4,5.9,8.47,5.25,D
 2026-09-27T18:23:20+01:00,2026-10-10T14:56:05+01:00,Chelsea v Bournemouth,Premier League,Bournemouth,4.42,4.03,9.68,3.76,L
 2026-10-02T00:43:39+01:00,2026-10-08T00:29:19+01:00,Botafogo v Vasco,Brazil Serie A,Vasco,2.52,2.34,7.69,1.93,W
 2026-10-08T20:08:50+01:00,2026-10-17T12:33:03+01:00,Everton v Chelsea,Premier League,Chelsea,2.38,2.38,0.0,2.23,W (Reece James injured)
@@ -376,8 +376,8 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-10T17:58:25+01:00,2026-10-13T19:39:41+01:00,Stoke City v Middlesbrough,Championship,Stoke City,3.55,3.78,-6.08,3.21,L
 2026-10-11T14:08:20+01:00,2026-10-14T20:05:48+01:00,Norwich City v Southampton,Championship,Southampton,2.72,3.05,-10.82,2.5,W
 2026-10-11T22:14:41+01:00,2026-10-11T22:14:41+01:00,Palmeiras v Corinthians,Brazil Serie A,Corinthians,6.61,6.21,6.44,4.04,TBD (close not captured; last price seen 6.21)
-2026-10-12T16:11:10+01:00,2026-10-17T14:40:30+01:00,Derby County v Stoke City,Championship,Stoke City,2.78,2.5,11.2,2.13,TBD (entry is a Kalshi price; Pinnacle not posted)
+2026-10-12T16:11:10+01:00,2026-10-17T14:40:30+01:00,Derby County v Stoke City,Championship,Stoke City,2.78,2.5,11.2,2.13,W (entry is a Kalshi price; Pinnacle not posted)
 2026-10-12T20:00:35+01:00,2026-10-12T20:00:35+01:00,Coritiba v Botafogo,Brazil Serie A,Botafogo,2.59,2.49,4.02,2.44,D
-2026-10-14T00:17:32+01:00,2026-10-17T14:50:25+01:00,West Bromwich Albion v Blackburn Rovers,Championship,Blackburn Rovers,3.91,4.18,-6.46,2.91,TBD
+2026-10-14T00:17:32+01:00,2026-10-17T14:50:25+01:00,West Bromwich Albion v Blackburn Rovers,Championship,Blackburn Rovers,3.91,4.18,-6.46,2.91,L
 2026-10-14T00:25:41+01:00,2026-10-17T12:17:53+01:00,Middlesbrough v Cardiff City,Championship,Cardiff City,4.77,5.4,-11.67,4.09,D
-2026-10-14T23:59:44+01:00,2026-10-17T14:40:01+01:00,Swansea City v West Ham United,Championship,West Ham United,2.22,2.08,6.73,2.05,TBD
+2026-10-14T23:59:44+01:00,2026-10-17T14:40:01+01:00,Swansea City v West Ham United,Championship,West Ham United,2.22,2.08,6.73,2.05,W
