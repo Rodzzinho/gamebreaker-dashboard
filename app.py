@@ -142,7 +142,7 @@ st.markdown(
   <div class="eyebrow">GameBreaker &middot; closing line record{(" &middot; updated " + UPDATED) if UPDATED else ""}</div>
   <div class="h1">The market moves.<br><em>We were already there.</em></div>
   <div class="lede">Every price below was locked <b>before kick-off</b> and checked against where the market finally closed.
-  No screenshots. Just <b>{N} settled picks</b>, each committed to GitHub with a timestamp.</div>
+  No screenshots. Just <b>{N} settled picks</b>, each committed to <a href="https://github.com/Rodzzinho/gamebreaker-clv-proof" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline;">GitHub</a> with a timestamp.</div>
 </div>
 """,
     unsafe_allow_html=True,
