@@ -148,7 +148,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-tab_live, tab_tr, tab_bt, tab_n, tab_gh = st.tabs(["Live record", "Live trading", "Backtest", "How many bets?", "Proof on GitHub"])
+tab_live, tab_tr, tab_bt, tab_n, tab_gh = st.tabs(["Record vs Pinnacle", "Live trading", "Backtest", "How many bets?", "Proof on GitHub"])
 tab_live.__enter__()
 
 # ---- ticker of the most recent verified prints (losers included) ---------------------------
