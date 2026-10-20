@@ -373,7 +373,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-09-21T17:11:53+01:00,2026-10-17T19:53:44+01:00,Valencia v Bilbao,La Liga,Valencia,3.58,3.35,6.87,3.01,TBD
 2026-09-21T17:11:53+01:00,2026-10-18T12:55:08+01:00,Osasuna v Racing Santander,La Liga,Racing Santander,4.34,3.76,15.43,3.63,L
 2026-09-21T17:11:53+01:00,2026-10-18T14:43:28+01:00,Celta Vigo v Alaves,La Liga,Alaves,3.87,3.71,4.31,2.76,L
-2026-09-21T17:11:53+01:00,2026-10-19T19:56:41+01:00,Getafe v Rayo,La Liga,Rayo,3.03,2.65,14.34,2.49,TBD
+2026-09-21T17:11:53+01:00,2026-10-19T19:56:41+01:00,Getafe v Rayo,La Liga,Rayo,3.03,2.65,14.34,2.49,D
 2026-09-27T18:23:20+01:00,2026-10-10T14:56:05+01:00,Chelsea v Bournemouth,Premier League,Bournemouth,4.42,4.03,9.68,3.76,L
 2026-10-02T00:43:39+01:00,2026-10-08T00:29:19+01:00,Botafogo v Vasco,Brazil Serie A,Vasco,2.52,2.34,7.69,1.93,W
 2026-10-08T20:08:50+01:00,2026-10-17T12:33:03+01:00,Everton v Chelsea,Premier League,Chelsea,2.38,2.38,0.0,2.23,W (Reece James injured)
@@ -381,7 +381,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-08T20:11:03+01:00,2026-10-17T13:51:03+01:00,Brentford v Liverpool,Premier League,Brentford,2.77,2.65,4.53,2.6,L
 2026-10-08T20:11:03+01:00,2026-10-18T13:54:36+01:00,AFC Bournemouth v Sunderland,Premier League,Sunderland,3.72,4.01,-7.23,2.59,L
 2026-10-08T20:11:03+01:00,2026-10-17T16:44:26+01:00,Newcastle United v Aston Villa,Premier League,Aston Villa,3.25,3.13,3.83,2.8,W
-2026-10-08T20:11:03+01:00,2026-10-19T19:58:00+01:00,Tottenham Hotspur v Coventry City,Premier League,Coventry City,6.3,5.65,11.5,5.0,TBD
+2026-10-08T20:11:03+01:00,2026-10-19T19:58:00+01:00,Tottenham Hotspur v Coventry City,Premier League,Coventry City,6.3,5.65,11.5,5.0,L
 2026-10-08T17:23:56+01:00,2026-10-08T23:59:40+01:00,Athletico-PR v Atletico-MG,Brazil Serie A,Atletico-MG,3.9,3.77,3.45,3.08,D
 2026-10-09T13:44:10+01:00,2026-10-18T17:18:44+01:00,Malaga v Real Sociedad,La Liga,Real Sociedad,2.2,2.08,5.77,1.93,W
 2026-10-10T12:42:48+01:00,2026-10-10T12:42:48+01:00,Arsenal v Leeds United,Premier League,Leeds United,8.17,7.85,4.08,,L
