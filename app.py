@@ -388,7 +388,7 @@ with tab_bt:
 </div>
 <div class="note">A backtest replays the model on past seasons. It is a sanity check, not the timestamped record. The live record is the one that counts, and it sits on the first tab.</div>
 <div class="proof"><div class="lbl">Full game-by-game file</div>
-<div class="meta" style="margin-top:0">Available on request. Email <a href="mailto:hello@rsrodai.org" style="color:{GREEN}">hello@rsrodai.org</a> and ask for the backtest CSV.</div></div>
+<div class="meta" style="margin-top:0">Available on request. Email <a href="mailto:info@ltsresearch.com" style="color:{GREEN}">info@ltsresearch.com</a> or <a href="mailto:hello@rsrodai.org" style="color:{GREEN}">hello@rsrodai.org</a> and ask for the backtest CSV.</div></div>
 """,
         unsafe_allow_html=True,
     )
