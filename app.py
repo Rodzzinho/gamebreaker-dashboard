@@ -148,7 +148,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-tab_live, tab_bt, tab_n, tab_gh = st.tabs(["Live record", "Backtest", "How many bets?", "Proof on GitHub"])
+tab_live, tab_tr, tab_bt, tab_n, tab_gh = st.tabs(["Live record", "Live trading", "Backtest", "How many bets?", "Proof on GitHub"])
 tab_live.__enter__()
 
 # ---- ticker of the most recent verified prints (losers included) ---------------------------
@@ -373,6 +373,72 @@ st.download_button(
 )
 
 tab_live.__exit__(None, None, None)
+
+# ---- live trading tab -----------------------------------------------------------------------
+with tab_tr:
+    try:
+        lt = pd.read_csv("data/live_trading.csv")
+    except Exception:
+        lt = pd.DataFrame(columns=["kind", "match", "league", "venue", "outcome", "entry", "exit", "exit_time", "clv_pct", "placed"])
+    pk = lt[lt["kind"] == "prekick"].copy()
+    ip = lt[lt["kind"] == "inplay"].copy()
+    hd = lt[lt["kind"] == "held"].copy()
+    op = lt[lt["kind"] == "open"].copy()
+    pk_n = len(pk)
+    pk_mean = pk["clv_pct"].mean() if pk_n else None
+    pk_med = pk["clv_pct"].median() if pk_n else None
+    pk_beat = (pk["clv_pct"] > 0).mean() * 100 if pk_n else None
+
+    def _f(v, suffix="%"):
+        return "n/a" if v is None or pd.isna(v) else f"{v:+.2f}{suffix}"
+
+    st.markdown('<div class="section">Live trading, Stage 2</div>', unsafe_allow_html=True)
+    st.markdown(
+        '<div class="note">Real-money positions on Betfair and Kalshi, exited before kick off unless held. '
+        "Exit CLV is the price move from entry to exit. Updated as bets close.</div>",
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        f"""
+<div class="cards" style="grid-template-columns: repeat(4, 1fr)">
+  <div class="card hero-card"><div class="k">Average exit CLV</div><div class="v pos">{_f(pk_mean)}</div><div class="n">{pk_n} bets exited before kick off</div></div>
+  <div class="card"><div class="k">Median</div><div class="v">{_f(pk_med)}</div><div class="n">same bets</div></div>
+  <div class="card"><div class="k">Ended better than entry</div><div class="v">{"n/a" if pk_beat is None or pd.isna(pk_beat) else f"{pk_beat:.0f}%"}</div><div class="n">of exits before kick off</div></div>
+  <div class="card"><div class="k">Open positions</div><div class="v">{len(op)}</div><div class="n">awaiting kick off</div></div>
+</div>
+""",
+        unsafe_allow_html=True,
+    )
+    if pk_n:
+        pk = pk.sort_values("exit_time").reset_index(drop=True)
+        pk["n"] = pk.index + 1
+        pk["running_avg"] = pk["clv_pct"].expanding().mean()
+        line_t = alt.Chart(pk).mark_line(color=GREEN, strokeWidth=3, point=True).encode(
+            x=alt.X("n:Q", title="Bet number"),
+            y=alt.Y("running_avg:Q", title="Running average exit CLV (%)"),
+            tooltip=[alt.Tooltip("match:N"), alt.Tooltip("clv_pct:Q", format="+.2f", title="CLV %"),
+                     alt.Tooltip("running_avg:Q", format="+.2f", title="Running average")],
+        )
+        st.altair_chart(style_chart(line_t, 260), width="stretch")
+    other = lt[lt["kind"].isin(["prekick", "inplay", "held"])].copy()
+    other["Type"] = other["kind"].map({"prekick": "Exited before kick off", "inplay": "Exited in play", "held": "Held to full time"})
+    show_x = other[["match", "league", "venue", "outcome", "entry", "exit", "exit_time", "clv_pct", "Type"]]
+    if len(show_x):
+        st.dataframe(
+            show_x.style.map(clv_colour, subset=["clv_pct"]),
+            width="stretch", hide_index=True,
+            column_config={"match": "Match", "league": "Competition", "venue": "Venue", "outcome": "Side",
+                           "entry": "Entry", "exit": "Exit", "exit_time": "Exit time (UTC)",
+                           "clv_pct": st.column_config.NumberColumn("CLV %", format="%+.2f%%")},
+        )
+    if len(op):
+        st.markdown('<div class="section" style="font-size:15px">Open positions</div>', unsafe_allow_html=True)
+        st.dataframe(
+            op[["match", "league", "venue", "outcome", "entry", "placed"]],
+            width="stretch", hide_index=True,
+            column_config={"match": "Match", "league": "Competition", "venue": "Venue", "outcome": "Side",
+                           "entry": "Entry", "placed": "Placed (UTC)"},
+        )
 
 # ---- backtest tab ---------------------------------------------------------------------------
 with tab_bt:
