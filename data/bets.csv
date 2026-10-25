@@ -390,7 +390,9 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-10T17:58:25+01:00,2026-10-13T19:39:41+01:00,Stoke City v Middlesbrough,Championship,Stoke City,3.55,3.78,-6.08,3.21,L
 2026-10-11T14:08:20+01:00,2026-10-14T20:05:48+01:00,Norwich City v Southampton,Championship,Southampton,2.72,3.05,-10.82,2.5,W
 2026-10-11T22:14:41+01:00,2026-10-11T22:14:41+01:00,Palmeiras v Corinthians,Brazil Serie A,Corinthians,6.61,6.21,6.44,4.04,TBD (close not captured; last price seen 6.21)
+2026-10-11T22:14:41+01:00,2026-10-25T13:42:50Z,Monaco v Lille,Ligue 1,Lille,3.4,4.3,-20.93,2.8,TBD
 2026-10-11T22:14:41+01:00,2026-10-24T19:14:29+01:00,RC Lens v Paris FC,Ligue 1,Paris FC,3.41,2.79,22.22,2.68,TBD
+2026-10-12T03:05:36+01:00,2026-10-25T13:48:31Z,Liverpool v Brighton and Hove Albion,Premier League,Brighton and Hove Albion,3.27,3.53,-7.37,2.51,TBD
 2026-10-12T16:11:10+01:00,2026-10-17T14:40:30+01:00,Derby County v Stoke City,Championship,Stoke City,2.78,2.5,11.2,2.13,W (entry is a Kalshi price; Pinnacle not posted)
 2026-10-12T17:47:36+01:00,2026-10-18T14:32:30+01:00,Fluminense v Santos,Brazil Serie A,Santos,3.65,3.13,16.61,2.87,TBD
 2026-10-12T17:47:36+01:00,2026-10-18T00:56:20+01:00,Sao Paulo v Vasco da Gama,Brazil Serie A,Sao Paulo,2.17,2.58,-15.89,2.04,W (held as outright; a double click switched it back so the desk exited early)
@@ -403,6 +405,8 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-17T15:51:48+01:00,2026-10-24T14:54:01+01:00,Queens Park Rangers v Swansea City,Championship,Swansea City,2.84,3.03,-6.27,2.48,TBD
 2026-10-17T21:08:59+01:00,2026-10-24T13:00:39+01:00,Rayo Vallecano v Elche,La Liga,Elche,4.46,4.51,-1.11,3.71,W
 2026-10-17T23:17:34+01:00,2026-10-24T20:12:05+01:00,Internacional v Botafogo,Brazil Serie A,Botafogo,3.85,3.2,20.31,3.48,TBD
+2026-10-18T23:20:04+01:00,2026-10-25T13:50:45Z,Manchester United v Bournemouth,Premier League,Bournemouth,3.99,2.94,35.71,3.65,TBD
+2026-10-19T00:05:45+01:00,2026-10-25T13:51:50Z,Barcelona v Real Madrid,La Liga,Real Madrid,4.67,4.17,11.99,4.05,TBD (Courtois injury)
 2026-10-19T23:40:45+01:00,2026-10-23T19:54:42+01:00,Ipswich Town v Nottingham Forest,Premier League,Ipswich Town,3.16,3.34,-5.39,3.0,D
 2026-10-19T23:52:32+01:00,2026-10-23T19:49:12+01:00,Brest v Nice,Ligue 1,Brest,2.24,2.41,-7.05,2.0,L
 2026-10-21T14:49:12+01:00,2026-10-24T12:38:37+01:00,Portsmouth v Millwall,Championship,Millwall,3.02,2.99,1.0,2.46,L (cashed out at 1-0 up; Millwall lost 2-1)
