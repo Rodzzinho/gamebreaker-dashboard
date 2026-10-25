@@ -393,6 +393,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-11T22:14:41+01:00,2026-10-25T13:42:50Z,Monaco v Lille,Ligue 1,Lille,3.4,4.3,-20.93,2.8,TBD
 2026-10-11T22:14:41+01:00,2026-10-24T19:14:29+01:00,RC Lens v Paris FC,Ligue 1,Paris FC,3.41,2.79,22.22,2.68,TBD
 2026-10-12T03:05:36+01:00,2026-10-25T13:48:31Z,Liverpool v Brighton and Hove Albion,Premier League,Brighton and Hove Albion,3.27,3.53,-7.37,2.51,TBD
+2026-10-12T14:26:39+01:00,2026-10-25T14:56:51Z,Celta Vigo v Real Betis,La Liga,Real Betis,2.56,2.69,-4.83,2.41,TBD
 2026-10-12T16:11:10+01:00,2026-10-17T14:40:30+01:00,Derby County v Stoke City,Championship,Stoke City,2.78,2.5,11.2,2.13,W (entry is a Kalshi price; Pinnacle not posted)
 2026-10-12T17:47:36+01:00,2026-10-18T14:32:30+01:00,Fluminense v Santos,Brazil Serie A,Santos,3.65,3.13,16.61,2.87,TBD
 2026-10-12T17:47:36+01:00,2026-10-18T00:56:20+01:00,Sao Paulo v Vasco da Gama,Brazil Serie A,Sao Paulo,2.17,2.58,-15.89,2.04,W (held as outright; a double click switched it back so the desk exited early)
@@ -407,6 +408,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-17T23:17:34+01:00,2026-10-24T20:12:05+01:00,Internacional v Botafogo,Brazil Serie A,Botafogo,3.85,3.2,20.31,3.48,TBD
 2026-10-18T23:20:04+01:00,2026-10-25T13:50:45Z,Manchester United v Bournemouth,Premier League,Bournemouth,3.99,2.94,35.71,3.65,TBD
 2026-10-19T00:05:45+01:00,2026-10-25T13:51:50Z,Barcelona v Real Madrid,La Liga,Real Madrid,4.67,4.17,11.99,4.05,TBD (Courtois injury)
+2026-10-19T16:52:43+01:00,2026-10-25T15:03:46Z,Angers v Lorient,Ligue 1,Lorient,2.63,2.46,6.91,2.41,TBD
 2026-10-19T23:40:45+01:00,2026-10-23T19:54:42+01:00,Ipswich Town v Nottingham Forest,Premier League,Ipswich Town,3.16,3.34,-5.39,3.0,D
 2026-10-19T23:52:32+01:00,2026-10-23T19:49:12+01:00,Brest v Nice,Ligue 1,Brest,2.24,2.41,-7.05,2.0,L
 2026-10-21T14:49:12+01:00,2026-10-24T12:38:37+01:00,Portsmouth v Millwall,Championship,Millwall,3.02,2.99,1.0,2.46,L (cashed out at 1-0 up; Millwall lost 2-1)
