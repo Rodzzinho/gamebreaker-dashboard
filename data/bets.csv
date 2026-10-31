@@ -408,14 +408,21 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-17T23:17:34+01:00,2026-10-24T20:12:05+01:00,Internacional v Botafogo,Brazil Serie A,Botafogo,3.85,3.2,20.31,3.48,TBD
 2026-10-18T23:20:04+01:00,2026-10-25T13:50:45Z,Manchester United v Bournemouth,Premier League,Bournemouth,3.99,2.94,35.71,3.65,W
 2026-10-18T23:20:04+01:00,2026-10-25T16:17:36Z,Sunderland v Leeds United,Premier League,Leeds United,2.57,2.79,-7.89,2.4,TBD
+2026-10-18T23:20:04+01:00,2026-10-31T15:09:19Z,Rayo Vallecano v Celta Vigo,La Liga,Celta Vigo,3.46,3.23,7.12,2.76,TBD
 2026-10-18T23:20:04+01:00,2026-10-30T19:56:57Z,Lille v RC Lens,Ligue 1,RC Lens,3.02,2.68,12.69,2.82,TBD
 2026-10-19T00:05:45+01:00,2026-10-25T13:51:50Z,Barcelona v Real Madrid,La Liga,Real Madrid,4.67,4.17,11.99,4.05,W (Courtois injury)
 2026-10-19T16:52:43+01:00,2026-10-25T15:03:46Z,Angers v Lorient,Ligue 1,Lorient,2.63,2.46,6.91,2.41,TBD
 2026-10-19T18:27:56+01:00,2026-10-30T18:39:57Z,Nice v Rennes,Ligue 1,Rennes,2.36,2.65,-10.94,2.29,L
 2026-10-19T23:12:56+01:00,2026-10-25T16:54:11Z,PSG v Lyon,Ligue 1,Lyon,7.22,6.98,3.44,6.93,EXITED
+2026-10-19T23:14:27+01:00,2026-10-31T14:46:44Z,Brentford v Nottingham Forest,Premier League,Nottingham Forest,3.42,3.45,-0.87,2.94,TBD
 2026-10-19T23:40:45+01:00,2026-10-23T19:54:42+01:00,Ipswich Town v Nottingham Forest,Premier League,Ipswich Town,3.16,3.34,-5.39,3.0,D
 2026-10-19T23:52:32+01:00,2026-10-23T19:49:12+01:00,Brest v Nice,Ligue 1,Brest,2.24,2.41,-7.05,2.0,L
 2026-10-21T14:49:12+01:00,2026-10-24T12:38:37+01:00,Portsmouth v Millwall,Championship,Millwall,3.02,2.99,1.0,2.46,L (cashed out at 1-0 up; Millwall lost 2-1)
+2026-10-24T17:32:01+01:00,2026-10-31T14:46:44Z,Southampton v QPR,Championship,QPR,4.32,3.46,24.86,3.41,TBD
+2026-10-24T17:32:01+01:00,2026-10-31T14:46:44Z,Bolton v Bristol City,Championship,Bristol City,2.43,2.42,0.41,2.21,TBD
+2026-10-24T17:32:01+01:00,2026-10-31T14:46:44Z,Burnley v Portsmouth,Championship,Portsmouth,3.7,3.44,7.56,2.43,TBD
+2026-10-24T17:33:17+01:00,2026-10-31T14:46:44Z,Swansea City v Blackburn Rovers,Championship,Blackburn Rovers,4.8,4.9,-2.04,4.2,TBD
 2026-10-24T17:33:17+01:00,2026-10-31T12:24:11Z,Lincoln City v Birmingham City,Championship,Birmingham City,2.11,2.25,-6.22,1.92,TBD
 2026-10-24T17:33:17+01:00,2026-10-31T12:08:49Z,Stoke City v Preston North End,Championship,Preston North End,4.9,4.88,0.41,3.99,TBD
+2026-10-24T17:33:17+01:00,2026-10-31T15:06:30Z,Wolves v Cardiff City,Championship,Cardiff City,4.81,5.3,-9.25,3.88,TBD
 2026-10-27T17:19:35Z,2026-10-29T22:30:38Z,Atletico-MG v Cruzeiro,Brazil Serie A,Cruzeiro,2.66,2.4,10.83,2.5,TBD
