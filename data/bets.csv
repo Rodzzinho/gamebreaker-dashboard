@@ -412,6 +412,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-18T23:20:04+01:00,2026-11-01T12:56:41Z,Getafe v Sevilla,La Liga,Sevilla,2.79,2.32,20.26,2.5,TBD
 2026-10-18T23:20:04+01:00,2026-10-30T19:56:57Z,Lille v RC Lens,Ligue 1,RC Lens,3.02,2.68,12.69,2.82,TBD
 2026-10-18T23:20:04+01:00,2026-11-01T13:43:29Z,Strasbourg v Auxerre,Ligue 1,Auxerre,4.01,3.91,2.56,3.77,TBD
+2026-10-18T23:20:04+01:00,2026-11-01T16:19:18Z,Paris FC v AS Monaco,Ligue 1,Paris FC,2.32,2.55,-9.02,2.0,TBD
 2026-10-19T00:05:45+01:00,2026-10-25T13:51:50Z,Barcelona v Real Madrid,La Liga,Real Madrid,4.67,4.17,11.99,4.05,W (Courtois injury)
 2026-10-19T16:46:07+01:00,2026-10-31T20:10:31Z,Aston Villa v Fulham,Premier League,Aston Villa,1.94,2.0,-3.0,2.41,TBD
 2026-10-19T16:52:43+01:00,2026-10-25T15:03:46Z,Angers v Lorient,Ligue 1,Lorient,2.63,2.46,6.91,2.41,TBD
@@ -429,4 +430,5 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-24T17:33:17+01:00,2026-10-31T12:08:49Z,Stoke City v Preston North End,Championship,Preston North End,4.9,4.88,0.41,3.99,TBD
 2026-10-24T17:33:17+01:00,2026-10-31T15:06:30Z,Wolves v Cardiff City,Championship,Cardiff City,4.81,5.3,-9.25,3.88,TBD
 2026-10-18T23:20:04+01:00,2026-10-31T20:10:31Z,Troyes v Le Mans FC,Ligue 1,Le Mans FC,3.32,3.36,-1.19,2.74,TBD
+2026-10-27T14:50:04Z,2026-11-01T16:25:16Z,Liverpool v Arsenal,Premier League,Liverpool,2.8,2.99,-6.35,2.6,TBD
 2026-10-27T17:19:35Z,2026-10-29T22:30:38Z,Atletico-MG v Cruzeiro,Brazil Serie A,Cruzeiro,2.66,2.4,10.83,2.5,TBD
