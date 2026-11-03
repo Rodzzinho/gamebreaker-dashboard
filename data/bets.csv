@@ -408,6 +408,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-17T23:17:34+01:00,2026-10-24T20:12:05+01:00,Internacional v Botafogo,Brazil Serie A,Botafogo,3.85,3.2,20.31,3.48,TBD
 2026-10-18T23:20:04+01:00,2026-10-25T13:50:45Z,Manchester United v Bournemouth,Premier League,Bournemouth,3.99,2.94,35.71,3.65,W
 2026-10-18T23:20:04+01:00,2026-10-25T16:17:36Z,Sunderland v Leeds United,Premier League,Leeds United,2.57,2.79,-7.89,2.4,TBD
+2026-10-18T23:20:04+01:00,2026-11-03T00:43:28Z,Newcastle United v Everton,Premier League,Everton,3.22,3.46,-6.94,2.81,W
 2026-10-18T23:20:04+01:00,2026-10-31T15:09:19Z,Rayo Vallecano v Celta Vigo,La Liga,Celta Vigo,3.46,3.23,7.12,2.76,TBD
 2026-10-18T23:20:04+01:00,2026-11-01T12:56:41Z,Getafe v Sevilla,La Liga,Sevilla,2.79,2.32,20.26,2.5,TBD
 2026-10-18T23:20:04+01:00,2026-11-01T19:43:37Z,Athletic Bilbao v Real Sociedad,La Liga,Real Sociedad,4.09,3.67,11.44,2.82,TBD
@@ -434,4 +435,7 @@ logged_at,clv_logged_at,match,league,pick,entry_odds,pinnacle_close,clv_pct,gb_f
 2026-10-18T23:20:04+01:00,2026-10-31T20:10:31Z,Troyes v Le Mans FC,Ligue 1,Le Mans FC,3.32,3.36,-1.19,2.74,TBD
 2026-10-27T14:50:04Z,2026-11-01T16:25:16Z,Liverpool v Arsenal,Premier League,Liverpool,2.8,2.99,-6.35,2.6,L
 2026-04-28T02:11:27+01:00,2026-11-01T17:25:10Z,Elche v Valencia,La Liga,Elche,2.56,2.26,13.27,2.33,TBD
+2026-10-27T17:11:52Z,2026-11-03T00:43:28Z,Le Havre v Lorient,Ligue 1,Lorient,2.63,2.55,3.14,2.33,L
 2026-10-27T17:19:35Z,2026-10-29T22:30:38Z,Atletico-MG v Cruzeiro,Brazil Serie A,Cruzeiro,2.66,2.4,10.83,2.5,TBD
+2026-10-27T21:08:16Z,2026-11-03T00:43:28Z,Deportivo La Coruna v Osasuna,La Liga,Osasuna,3.63,3.96,-8.33,2.94,L
+2026-10-30T00:25:23Z,2026-11-03T00:43:28Z,Bragantino v Santos,Brazil Serie A,Santos,3.38,3.5,-3.43,2.95,TBD (reinstated before kickoff after an earlier void. Santos have a few players missing)
